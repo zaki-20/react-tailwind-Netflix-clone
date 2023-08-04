@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between text-center p-4 z-[100] w-full absolute">
+    <div className="flex justify-between text-center bg-black bg-opacity-10 p-4 z-[100] w-full absolute">
       <Link to="/">
         <h1 className="text-red-600 cursor-pointer text-4xl font-bold">
           NETFLIX
